@@ -5,13 +5,14 @@ whiskers:
     - flavor
     - accent
   filename: "themes/evergarden-{{ flavor.identifier }}-{{ accent }}"
+  hex_format: "#{{r}}{{g}}{{b}}"
 ---
 # Colors
 
-background-color=#{{ base.hex }}
-text-color=#{{ text.hex }}
-border-color=#{{ flavor.colors[accent].hex }}
-progress-color=over #{{ surface0.hex}}
+background-color={{ base.hex }}
+text-color={{ text.hex }}
+border-color={{ flavor.colors[accent].hex }}
+progress-color=over {{ surface0.hex}}
 
 [urgency=high]
-border-color=#{{ red.hex }}
+border-color={{ red.hex }}
