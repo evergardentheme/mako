@@ -1,6 +1,6 @@
 <h3 align="center">
   <img src="https://codeberg.org/evergarden/.profile/raw/branch/main/assets/logo-circle.png" width="100" alt="Logo"/><br/>
-  evergarden for <a href="https://github.com/emersion/mako">mako</a>
+  Evergarden for <a href="https://github.com/emersion/mako">Mako</a>
 </h3>
 
 <p align="center">
@@ -40,20 +40,19 @@
 
 ### Usage
 
-1. Copy the the flavor of your choice from [`themes/`](./themes/) to `$XDG_CONFIG_HOME/mako/`.
-1. [Include](https://github.com/emersion/mako/blob/master/doc/mako.5.scd#global-configuration-options) the file in your mako config.
-1. Reload mako with `makoctl reload`.
+1. Copy the the variant of your choice from `themes/` to `$XDG_CONFIG_HOME/mako/`
+2. [Include](https://github.com/emersion/mako/blob/master/doc/mako.5.scd#global-configuration-options) the file in your mako config
+3. Reload mako with `makoctl reload`
 
 ### Thanks to <3
 
-- [evergarden](https://codeberg.org/evergarden)
-- [catppuccin](https://github.com/catppuccin/mako)
 - [holly](https://codeberg.org/aquifolly)
+- [catppuccin](https://github.com/catppuccin/mako)
 
 <hr>
 
 <p align="center">
-  <a href="https://codeberg.org/evergarden/mako/src/COPYING">
-    <img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=LICENSE&message=EUPL-1.2&colorA=2B3337&colorB=AFD9E6"/>
+  <a href="https://codeberg.org/evergarden/mako/src/LICENSE">
+    <img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=LICENSE&message=Apache-2.0&colorA=2B3337&colorB=AFD9E6"/>
   </a>
 </p>
