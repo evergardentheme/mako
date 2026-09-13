@@ -1,9 +1,11 @@
-# Colors
 
 background-color=#1e2528
 text-color=#f8f9e8
 border-color=#dbe6af
 progress-color=over #262f33
+
+[urgency=low]
+border-color=#839e9a
 
 [urgency=high]
 border-color=#f57f82
